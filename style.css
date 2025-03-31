@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap");
+
+#warn-size {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    table {
+        display: none;
+    }
+    #warn-size {
+        display: inline;
+        font-size: x-large;
+    }
+}
+
+body {
+    margin: 0;
+    padding-top: 10em;
+    text-align: center;
+    background: mistyrose;
+}
+
+body > *:not(footer) {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: min(90vw, 50em);
+}
+
+a {
+    color: deeppink;
+}
+
+footer {
+    background: deeppink;
+    color: white;
+    padding: 1em;
+}
+
+h1, h2 {
+    font-family: "Lexend Giga";
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.small {
+    width: 10em;
+}
+.med {
+    width: 20em;
+}
+.large {
+    width: 30em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0;
+}
+
+iframe {
+    display: block;
+}
+
+.s1x1, .s1x1 > iframe {
+    width: 10em;
+    height: 10em;
+}
+.s1x2, .s1x2 > iframe {
+    width: 10em;
+    height: 20em;
+}
+.s2x1, .s2x1 > iframe {
+    width: 20em;
+    height: 10em;
+}
+.s2x2, .s2x2 > iframe {
+    width: 20em;
+    height: 20em;
+}
