@@ -27,8 +27,12 @@ body > *:not(footer) {
     max-width: min(90vw, 50em);
 }
 
-a {
+a:not(footer a) {
     color: deeppink;
+}
+
+footer a {
+    color: white;
 }
 
 footer {
